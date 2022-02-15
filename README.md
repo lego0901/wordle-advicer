@@ -8,8 +8,8 @@ Based on the algorithm explained on
 [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw)'s video
 [Solving Wordle using information
 theory](https://www.youtube.com/watch?v=v68zYyaEmEA&t=1031s). Thank you for your
-great inspiring video! It tries to minimize the expected number of total
-guesses, without any look-ahead step (simple algorithm).
+great inspiring video! My implementation tries to minimize the expected number
+of total guesses, without any look-ahead step (simple algorithm).
 
 The word dictionary sorted by the frequencies is fetched from
 [charlesreid1/five-letter-words](https://github.com/charlesreid1/five-letter-words/blob/master/sgb-words.txt).
