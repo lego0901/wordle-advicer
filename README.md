@@ -6,8 +6,8 @@
 
 Based on the algorithm explained on
 [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw)'s video
-[Solving Wordle using information
-theory](https://www.youtube.com/watch?v=v68zYyaEmEA&t=1031s). Thank you for your
+["Solving Wordle using information
+theory"](https://www.youtube.com/watch?v=v68zYyaEmEA&t=1031s). Thank you for your
 great inspiring video! My implementation tries to minimize the expected number
 of total guesses, without any look-ahead step (simple algorithm).
 
@@ -68,5 +68,5 @@ Several TODO to implement later
   - The conservative mode will try to finish the game within the 6 steps, more
     than minimizing the expected number of total guesses.
 - Also, GUI support?
-  - I don't think users who followed this instruction might be enough
-    comfortable in CUI. Low prioritized.
+  - I think users who followed this instruction might be comfortable enough in
+    CUI. Low prioritized.
