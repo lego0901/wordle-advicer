@@ -23,7 +23,7 @@ public:
   unsigned numAsked;
 
   // List of words that user has asked
-  std::vector<const std::string> queries;
+  std::vector<std::string> queries;
 
   // Responses from the user's queries
   std::vector<std::vector<LetterState>> results;

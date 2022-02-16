@@ -10,8 +10,8 @@ namespace wordle {
 class Dictionary {
 public:
   unsigned numWords;
-  std::vector<const std::string> words;
-  std::set<const std::string> wordSet;
+  std::vector<std::string> words;
+  std::set<std::string> wordSet;
 
   // Probability distributions of each word, sum to 1
   std::vector<double> probabilities;
