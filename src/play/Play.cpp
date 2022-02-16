@@ -71,7 +71,6 @@ int main() {
   wordle::Play play(dict, state, useGuess);
 
   while (1) {
-    play.answer = "sates";
     while (!play.isFinish()) {
       play.print(cout);
       bool done = false;
