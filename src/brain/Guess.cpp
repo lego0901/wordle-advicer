@@ -121,6 +121,6 @@ double Guess::estimateRemainingSteps(double remainingEntropy) {
   // An experimental value
   // y = -0.0095x2 + 0.305x + 1.1094
   double x = max<double>(0, remainingEntropy);
-  return -0.0095 * x * x + 0.305 * x + 1.1094;
+  return -0.0095 * x * x + 0.305 * x + 0.1094;
 }
 }; // namespace wordle
